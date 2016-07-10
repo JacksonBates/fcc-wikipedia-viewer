@@ -1,0 +1,40 @@
+body {
+  background-color: #FFF5c2;
+  color: #353446;
+}
+
+h1 {
+  font-family: Verdana;
+}
+
+.form {
+  margin: 30px auto;
+}
+
+#basic-addon1, #basic-addon2 {
+  cursor: pointer;
+}
+
+.panel {
+  background-color: #FFF5c2;
+}
+
+.row {
+  padding: 10px;
+  border-radius: 25px;
+  margin:5px;
+  
+}
+
+/* For small screen */
+.row:nth-child(even) {
+  background-color: #96baac;
+}
+.row:nth-child(odd) {
+  background-color: #b2cea8;
+}
+
+a:hover {
+  color: #353446;
+  text-decoration: none;
+}
