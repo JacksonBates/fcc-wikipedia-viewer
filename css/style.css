@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 body {
   font-family: 'Roboto';
   background-color: #e0e0ce;
   color: #000000;
+=======
+body {
+  background-color: #FFF5c2;
+  color: #353446;
+}
+
+h1 {
+  font-family: Verdana;
+>>>>>>> 6fa16c97f4909bacd496ecdb79afdc02c0beed76
 }
 
 .form {
@@ -11,11 +21,19 @@ body {
 }
 
 #basic-addon1, #basic-addon2 {
+<<<<<<< HEAD
   cursor: default;
 }
 
 .panel {
   background-color: #e0e0ce;
+=======
+  cursor: pointer;
+}
+
+.panel {
+  background-color: #FFF5c2;
+>>>>>>> 6fa16c97f4909bacd496ecdb79afdc02c0beed76
 }
 
 .row {
@@ -27,6 +45,7 @@ body {
 
 /* For small screen */
 .row:nth-child(even) {
+<<<<<<< HEAD
   background-color: #f2af29;
 }
 .row:nth-child(even) > a {
@@ -37,6 +56,12 @@ body {
 }
 .row:nth-child(odd) > a {
   color: #f2af29;  
+=======
+  background-color: #96baac;
+}
+.row:nth-child(odd) {
+  background-color: #b2cea8;
+>>>>>>> 6fa16c97f4909bacd496ecdb79afdc02c0beed76
 }
 
 a:hover {
