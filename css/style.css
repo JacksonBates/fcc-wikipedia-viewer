@@ -6,11 +6,6 @@ body {
   color: #000000;
 }
 
-body {
-  background-color: #FFF5c2;
-  color: #353446;
-}
-
 .form {
   margin: 30px auto;
 }
@@ -25,7 +20,7 @@ body {
 }
 
 .panel {
-  background-color: #FFF5c2;
+  background-color: #e0e0ce;
 }
 
 .row {
