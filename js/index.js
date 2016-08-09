@@ -5,7 +5,7 @@ function queryWikipedia() {
   var regex = /<[^>]*>/g;
   $.getJSON(url, function(data) {
     $.each(data.query.search, function (i, item) {
-      $(".results").add("<div class='row'><a href='http://en.wikipedia.org/wiki/" + item.title + "' target='_blank'><p><strong>" + item.title + "</strong><br>" + item.snippet.replace(regex, "") + "...</p></a></div>").appendTo(".results");
+      $(".results").add("<div class='row'><a href='http://en.wikipedia.org/wiki/" + item.title + "' target='_blank'><p><strong><span class='item-title'>" + item.title + "</span></strong><br>" + item.snippet.replace(regex, "") + "...</p></a></div>").appendTo(".results");
     });
   });
 }
