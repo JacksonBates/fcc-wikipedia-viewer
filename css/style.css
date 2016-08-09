@@ -1,10 +1,9 @@
-body {
-  background-color: #FFF5c2;
-  color: #353446;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
-h1 {
-  font-family: Verdana;
+body {
+  font-family: 'Roboto';
+  background-color: #e0e0ce;
+  color: #000000;
 }
 
 .form {
@@ -12,11 +11,11 @@ h1 {
 }
 
 #basic-addon1, #basic-addon2 {
-  cursor: pointer;
+  cursor: default;
 }
 
 .panel {
-  background-color: #FFF5c2;
+  background-color: #e0e0ce;
 }
 
 .row {
@@ -28,10 +27,16 @@ h1 {
 
 /* For small screen */
 .row:nth-child(even) {
-  background-color: #96baac;
+  background-color: #f2af29;
+}
+.row:nth-child(even) > a {
+  color: #ad343e;
 }
 .row:nth-child(odd) {
-  background-color: #b2cea8;
+  background-color: #ad343e;
+}
+.row:nth-child(odd) > a {
+  color: #f2af29;  
 }
 
 a:hover {
